@@ -21,7 +21,7 @@ export default function Home() {
     const tour = params.get("tour");
 
     // Map query param to iframe links
-    let url = "https://biganto.com/tour/47350/"; // default
+    let url = "https://biganto.com/tour/46576/?iframe=1"; // default
     
     setIframeUrl(url);
   }, []);
@@ -55,7 +55,7 @@ const handleSubmit = (e) => {
         width="100%"
         height="100%"
         allow="vr;xr-spatial-tracking;gyroscope;accelerometer;magnetometer;"
-        title="Royal Relexa Virtual TOur"
+        title="Royal Relexa Virtual Tour"
         style={{ display: "block", border: "none" }}
       ></iframe>:null}
  
