@@ -21,7 +21,7 @@ export default function Home() {
     const tour = params.get("tour");
 
     // Map query param to iframe links
-    let url = "https://biganto.com/tour/46576/?iframe=1"; // default
+    let url = "https://biganto.com/tour/47350/?iframe=1"; // default
     
     setIframeUrl(url);
   }, []);
