@@ -64,6 +64,7 @@ const handleSubmit = (e) => {
         height="100%"
         allow="vr;xr-spatial-tracking;gyroscope;accelerometer;magnetometer;"
         title="Royal Relexa Virtual Tour"
+         allowfullscreen="allowfullscreen"
         style={{ display: "block", border: "none" }}
       ></iframe>:null}
  
