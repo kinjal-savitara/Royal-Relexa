@@ -30,8 +30,9 @@ export default function Home() {
       url = "https://biganto.com/tour/47350/?iframe=1";
     } 
     
-    
     setIframeUrl(url);
+    
+    setIframeUrl('');
   }, []);
 
   
